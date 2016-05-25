@@ -1,0 +1,199 @@
+.iconYear, .iconEduPin, .iconLastUpdate, .iconUpdate, .iconEduPinSmall, .iconTltp {
+    background: url(timeline/timeline-sprite.png) 0 0 no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: text-bottom;
+}
+
+.iconDotted {
+    background: url(timeline/dotted.png) 0 5px repeat-x;
+}
+
+.iconBorder {
+    background: url(timeline/border.png) 0 5px repeat-x;
+}
+
+.iconStripes {
+    background: url(timeline/stripes.png) 0 0 repeat;
+}
+
+.iconYear {
+    height: 17px;
+    width: 8px;
+    background-position: -193px -14px;
+}
+
+.iconEduPin {
+    position: absolute;
+    bottom: 1px;
+    right: -7px;
+    height: 42px;
+    width: 22px;
+    background-position: 0 -4px;
+}
+
+.iconLastUpdate {
+    position: absolute;
+    bottom: 3px;
+    left: 40%;
+    height: 17px;
+    width: 8px;
+    background-position: -34px -14px;
+}
+
+.iconEduPinSmall {
+    position: absolute;
+    bottom: 1px;
+    right: -5px;
+    height: 22px;
+    width: 18px;
+    background-position: -49px -11px;
+}
+
+.iconTltp {
+    height: 10px;
+    width: 18px;
+    background-position: -74px -14px;
+}
+
+.iconUpdate {
+    height: 14px;
+    width: 12px;
+    background-position: -31px -14px;
+    margin-right: 4px;
+}
+
+.yearGraph {
+    height: 10px;
+    position: relative;
+}
+
+.yearGraph .yearBox {
+    position: relative;
+}
+
+.timelineTable:hover .yearGraph .year {
+    color: #888888;
+}
+
+.yearGraph .yearInner {
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    max-width: 18px;
+    margin-left: -9px;
+    /*background-color: white;*/
+    text-align: center;
+}
+
+.yearGraph .yearInner .year {
+    margin-bottom: -6px;
+    color: #BFBFBF;
+    position: relative;
+    font-size: 11px;
+}
+
+.yearGraph .yearInner .iconYear {
+    width: 1px;
+}
+
+.yearGraph .leftYear {
+    left: 0;
+    margin-left: 0;
+}
+
+.yearGraph .rightYear {
+    left: auto;
+    right: 0;
+}
+
+.timeline {
+    cursor: pointer;
+}
+
+.timeline .timelineMonth {
+    *line-height: 0px;
+    font-size: 8px;
+    padding: 5px 0\9;
+    *padding: 0;
+    position: relative;
+    *height: 10px;
+}
+
+.timeline .timelineMonth > span {
+    color: transparent;
+    font-size: 0\9;
+}
+
+.mb8 {
+    margin-bottom: 8px;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.mt4 {
+    margin-top: 4px;
+}
+
+.timelineTooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #B7B7B7;
+    padding: 10px;
+    z-index: 9;
+    font-size: 13px;
+    top: 20px;
+    min-width: 200px;
+    min-width: 275px\9;
+    white-space: nowrap;
+    white-space: normal\9;
+    max-width: 400px;
+}
+
+.timelineTooltip .compName {
+    color: gray;
+    line-height: 16px;
+}
+
+.timelineTooltip .exp {
+    color: gray;
+    *line-height: 16px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.tltpLeft {
+    right: -17px;
+}
+
+.tltpRight {
+    left: -17px;
+}
+
+.wrdWrap {
+    white-space: pre-wrap;
+    /* CSS3 */
+    white-space: -moz-pre-wrap;
+    /* Firefox */
+    white-space: -pre-wrap;
+    /* Opera <7 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+}
+
+.arrowTopRight {
+    position: absolute;
+    right: 11px;
+    top: -9px;
+}
+
+.arrowTopLeft {
+    position: absolute;
+    left: 11px;
+    top: -9px;
+}
